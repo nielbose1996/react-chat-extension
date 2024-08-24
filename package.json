@@ -1,0 +1,33 @@
+{
+  "name": "vscode-git-nlp",
+  "displayName": "VSCode Git NLP",
+  "description": "Generate Git commands from natural language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "onCommand:gitNLP.openChat"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "@types/vscode": "^1.92.0",
+    "ts-loader": "^8.4.0",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.2"
+  }
+}

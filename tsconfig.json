@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "types": ["node", "vscode"],
+      "lib": ["es6", "dom"],
+      "allowJs": true,
+      "jsx": "react",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "out",
+      "rootDir": "src",
+      "sourceMap": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }
+  
